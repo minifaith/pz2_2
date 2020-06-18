@@ -52,13 +52,13 @@ Inc.//DTD Web Application 2.3//EN"
     </servlet-mapping>
 
     <filter>
-        <filter-name>SearchEmptyFieldsFilter</filter-name>
+        <filter-name>EmptyFieldsFilter</filter-name>
         <filter-class>
-            practice.post.practice2.filters.SearchEmptyFieldsFilter
+            practice.post.practice2.filters.EmptyFieldsFilter
         </filter-class>
     </filter>
     <filter-mapping>
-        <filter-name>SearchEmptyFieldsFilter</filter-name>
+        <filter-name>EmptyFieldsFilter</filter-name>
         <url-pattern>/create</url-pattern>
     </filter-mapping>
 
